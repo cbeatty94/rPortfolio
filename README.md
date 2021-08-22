@@ -31,3 +31,5 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
 ![reactPortfolio](https://user-images.githubusercontent.com/78604328/130362111-1bd8a446-4a7f-47d5-bd23-94a0995f3292.png)
+
+https://burkebeattyportfolio.netlify.app/
