@@ -8,47 +8,48 @@ export const projects = [
     link: "https://themetalsaint.github.io/TheDawnPatrol/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Map Marauders",
+    subtitle: "JavaScript, Bootstrap, Express",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "GeoLocation guessing game with live chat feature and user storage.",
+    image: "./MapMarauders.png",
+    link: "https://map-marauders.herokuapp.com/",
   },
-  // {
-  //   title: "DevChat",
-  //   subtitle: "React and Firebase",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-  //   image: "./project-3.gif",
-  //   link: "https://reactbootcamp.com",
-  // },
-  // {
-  //   title: "Epic Todo App",
-  //   subtitle: "React Hooks",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-  //   image: "./project-4.gif",
-  //   link: "https://reactbootcamp.com",
-  // },
+  {
+    title: "Note Taker",
+    subtitle: "JavaScript, Express, HTML, and CSS",
+    description:
+      "Note taking application that allows user to write and save notes in order to organize their thoughts and keep track of tasks they need to complete.",
+    image: "./noteTaker.png",
+    link: "https://note-taker666.herokuapp.com/",
+  },
+  {
+    title: "Team Profile Generator",
+    subtitle: "Node and JavaScript",
+    description:
+      "Useful node application for creating team profile page by simply following terminal prompts.",
+    image: "./TeamProfileGenerator.gif",
+    link: "https://github.com/cbeatty94/TeamProfileGenerator",
+  },
+  {
+    title: "Planner",
+    subtitle: "HTML, JavaScript, and CSS",
+    description:
+      "Planner application designed to help user keep track of tasks and easily schedule their work day.",
+    image: "./Planner.png",
+    link: "https://cbeatty94.github.io/Planner/",
+  },
+  {
+    title: "Password Generator",
+    subtitle: "JavaScript, HTML, and CSS",
+    description:
+      "Password generator application designed to create unique passwords based on needs of user.",
+    image: "./passwordGenerator.png",
+    link: "https://cbeatty94.github.io/PasswordGenerator/",
+  },
 ];
 
-// export const testimonials = [
-//   {
-//     quote:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-//     image: "https://randomuser.me/api/portraits/men/1.jpg",
-//     name: "Jesse Hicks",
-//     company: "Zoozle",
-//   },
-//   {
-//     quote:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-//     image: "https://randomuser.me/api/portraits/men/94.jpg",
-//     name: "Ruben Alvarez",
-//     company: "Dooble.io",
-//   },
-// ];
+
 
 export const skills = [
   "JavaScript",
