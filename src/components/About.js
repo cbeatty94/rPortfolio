@@ -10,7 +10,7 @@ export default function About() {
                         <br className="hidden lg:inline-block" /> I love to build amazing apps.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Blah blah blah blah blah blah blah blah blah
+                    I am a budding web developer from Wilmington, North Carolina. Over the past half decade, I have been traveling the globe in an attempt to better my understanding of the world and myself. Through this journey I have discovered my passion for web development and have been pursuing said passion ever since.
                     </p>
                     <div className="flex justify-center">
                         <a
