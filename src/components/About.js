@@ -10,7 +10,7 @@ export default function About() {
                         <br className="hidden lg:inline-block" /> I love to build amazing apps.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                    I am a web developer primarily motivated to bridging the gap between app and audience. I am originally from Chapel Hill, North Carolina, but over the past half decade I have been traveling the globe in an attempt to better understand myself and the world around me. Through this journey I have discovered my passion for web development and connecting with people, and I have been working to combine these passions ever since.
+                    I am a web developer dedicated to building apps that effortlessly bridge the gap between app and audience. I am originally from Chapel Hill, North Carolina, but over the past half decade I have been traveling the globe in an attempt to better understand myself and the world around me. Through this journey I have discovered my passion for web development and connecting with people, and I have been working to combine these passions ever since.
                     </p>
                     <div className="flex justify-center">
                         <a
