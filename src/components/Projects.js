@@ -1,6 +1,7 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data"
+import { AiFillGithub } from 'react-icons/ai'
 
 export default function Projects() {
     return (
@@ -36,7 +37,7 @@ export default function Projects() {
                                     </h2>
                                     <p className="lealding-relaxed">{project.description}</p>
                                     <a>
-                                        
+                                    <AiFillGithub />
                                     </a>
                                 </div>
                             </div>
