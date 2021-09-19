@@ -16,12 +16,12 @@ export const projects = [
     link: "https://map-marauders.herokuapp.com/",
   },
   {
-    title: "Note Taker",
-    subtitle: "JavaScript, Express, HTML, and CSS",
+    title: "Plantr",
+    subtitle: "React, JavaScript, and Tailwind CSS",
     description:
-      "Note taking application that allows user to write and save notes in order to organize their thoughts and keep track of tasks they need to complete.",
-    image: "./noteTaker.png",
-    link: "https://note-taker666.herokuapp.com/",
+      "Planning application dedicated to helping users increase productivity whilst making a difference.",
+    image: "./plantr.png",
+    link: "https://productivityappunc.herokuapp.com/",
   },
   {
     title: "Team Profile Generator",
@@ -30,22 +30,6 @@ export const projects = [
       "Useful node application for creating team profile page by simply following terminal prompts.",
     image: "./TeamProfileGenerator.gif",
     link: "https://github.com/cbeatty94/TeamProfileGenerator",
-  },
-  {
-    title: "Planner",
-    subtitle: "HTML, JavaScript, and CSS",
-    description:
-      "Planner application designed to help user keep track of tasks and easily schedule their work day.",
-    image: "./Planner.png",
-    link: "https://cbeatty94.github.io/Planner/",
-  },
-  {
-    title: "Password Generator",
-    subtitle: "JavaScript, HTML, and CSS",
-    description:
-      "Password generator application designed to create unique passwords based on needs of user.",
-    image: "./passwordGenerator.png",
-    link: "https://cbeatty94.github.io/PasswordGenerator/",
   },
 ];
 
