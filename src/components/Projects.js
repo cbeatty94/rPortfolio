@@ -1,7 +1,7 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data"
-import { AiFillGithub } from 'react-icons/ai'
+import { AiFillGithub, AiOutlineLink } from 'react-icons/ai'
 
 export default function Projects() {
     return (
@@ -13,15 +13,12 @@ export default function Projects() {
                         Apps I've Built
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Click on the images to view my previous works!
+                        Click on the links to view my previous works!
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {projects.map((project) => (
-                        <a 
-                            href={project.link}
-                            key={project.image}
-                            className="sm:w-1/2 w-100 p-4">
+                        <div className="sm:w-1/2 w-100 p-4">
                             <div className="flex-relative">
                                 <img
                                     alt="gallery"
@@ -36,12 +33,17 @@ export default function Projects() {
                                         {project.subtitle}
                                     </h2>
                                     <p className="lealding-relaxed">{project.description}</p>
-                                    <a>
-                                    <AiFillGithub />
-                                    </a>
+                                    <div className="">
+                                        <a href={project.github} target="_blank">
+                                            <AiFillGithub />
+                                        </a>
+                                        <a href={project.link} target="_blank">
+                                            <AiOutlineLink />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     ))}
                 </div>
             </div>
