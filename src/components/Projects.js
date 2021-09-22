@@ -19,13 +19,13 @@ export default function Projects() {
                 <div className="flex flex-wrap -m-4">
                     {projects.map((project) => (
                         <div className="sm:w-1/2 w-100 p-4">
-                            <div className="flex-relative">
+                            <div className="flex-col flex h-full">
                                 <img
                                     alt="gallery"
-                                    className="inset-0 w-full h-full object-cover object-center"
+                                    className="inset-0 w-full h-full object-cover object-center flex-grow"
                                     src={project.image}
                                 />
-                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 hover:opacity-100">
+                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 hover:opacity-100 flex-grow">
                                     <h1 className="title-font text-lg font-medium text-white mb-3">
                                         {project.title}
                                     </h1>
@@ -33,7 +33,7 @@ export default function Projects() {
                                         {project.subtitle}
                                     </h2>
                                     <p className="lealding-relaxed">{project.description}</p>
-                                    <div className="">
+                                    <div className="flex justify-center">
                                         <a href={project.github} target="_blank">
                                             <AiFillGithub />
                                         </a>
