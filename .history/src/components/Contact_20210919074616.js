@@ -57,7 +57,8 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-s">
                                 ADDRESS
                             <p className="mt-1 text-xs">
-                                San Diego, California
+                                5328 New Centre Dr<br />
+                                Wilmington, NC 24803
                             </p>
                             </h2>
                             <h2 className="title-font font-semibold text-white tracking-widest text-s">
